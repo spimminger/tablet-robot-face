@@ -35,17 +35,17 @@ body {
   border-radius: 100%;
   height: var(--eye-size);
   width: var(--eye-size);
-  bottom: calc(var(--eye-size) / 3);
+  bottom: calc(var(--eye-size) / 1);
   z-index: 1;
   transform: rotateX(0);
 }
 
 .eye.left {
-  left: calc(var(--eye-size) / 3);
+  left: calc(var(--eye-size) / 2);
 }
 
 .eye.right {
-  right: calc(var(--eye-size) / 3);
+  right: calc(var(--eye-size) / 2);
 }
 
 .eyelid {
